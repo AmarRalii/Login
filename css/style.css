@@ -1,0 +1,57 @@
+body{
+    background-image: url(../خلفيات\ كمبيوتر.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign-up{
+    height: 100vh;
+    background-color: #000000;
+}
+.sign-in{
+    height: 100vh;
+    background-color: #0a91de;
+}
+.home{
+    background-color: #007ec7;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, .5);
+
+    border-radius: 20px;
+}
+.log{
+    margin-left: 900px;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all .4s;
+}
+.log:hover{
+    margin-left: 900px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.input{
+    border-bottom: #fff 1px solid;background-color: rgba(0, 0, 0, .5);;
+}
+h1{
+    color: #ffffff;;
+}
+button{
+    background-color: transparent;
+    border: #17a2b8 1px solid;
+    color: #17a2b8;
+    transition: all .4s;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+button:hover{
+    background-color: #17a2b8;
+    color: #fff;
+}
+button:hover a{
+
+    color: #fff;
+}
